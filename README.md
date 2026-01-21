@@ -9,19 +9,20 @@ https://afdian.com/a/manong
 
 
 
-<a href="/Documentation/donation.jpg"><img src="/Documentation/donation.jpg?raw=true" alt="Donation" width="300"></a>
 
-## How to Build
+ a href="/Documentation/donation.jpg"><img src="/Documentation/donation.jpg?raw=true" alt="Donation" width="300"></a>
+
+## 如何构建
 ## 如何编译
 
-### If your are familiar with Android development:
-* Fork this repository.
-* Replace `keystore/demokeystore.jks` with your own key store file.
-* Add below secrets in the  `Actions secrets and variables` settings of your repository.  
-<a href="/Documentation/screen1.png"><img src="/Documentation/screen1.png?raw=true" alt="Screenshot of Actions secrets" width="800"></a>  
-  `KEY_ALIAS`:  Key alais of your key store file.
-  `KEY_PASSWORD`: key password of your key store file.
-  `STORE_FILE`: Path of your key store file in your repository.
+### 如果你熟悉安卓开发：
+* 复刻这个仓库。
+*替换`keystore/demokeystore.jks`为您的密钥库文件。
+* 在  `操作秘密和变量` 设置中添加以下秘密。  
+ a href="/Documentation/screen1.png"><img src="/Documentation/screen1.png?raw=true" alt="Screenshot of Actions secrets" width="800"></a>  
+  `KEY_ALIAS`：  您的密钥库文件的密钥别名。
+  `KEY_PASSWORD`：您的密钥库文件的密钥密码。
+  `STORE_FILE`：在你的代码仓库中，你的密钥库文件的路径。
   `STORE_PASSWORD`: Store password of your key store file.
 * Trigger build in Github Actions
 * Download the `aaps.zip` file in `Artifacts`
